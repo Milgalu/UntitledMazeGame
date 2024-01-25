@@ -327,6 +327,8 @@
 -r:"E:/Unity2022/Unity 2022.3.17f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -analyzer:"E:/Unity2022/Unity 2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/Unity2022/Unity 2022.3.17f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Monster.cs"
+"Assets/Player.cs"
 "Assets/Test.cs"
 -langversion:9.0
 
