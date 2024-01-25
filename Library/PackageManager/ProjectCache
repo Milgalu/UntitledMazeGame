@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "E:/Unity\uD504\uB85C\uC81D\uD2B8/New Unity Project/Packages/manifest.json"
+    m_FilePath: C:/Users/enddl/UntitledMazeGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412640998498765
-    m_Hash: 2405387192
+      ticks: 638415926949820470
+    m_Hash: 947626093
   m_LockFileStatus:
-    m_FilePath: "E:/Unity\uD504\uB85C\uC81D\uD2B8/New Unity Project/Packages/packages-lock.json"
+    m_FilePath: C:/Users/enddl/UntitledMazeGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638412641012143648
-    m_Hash: 517873031
+      ticks: 638416827617182082
+    m_Hash: 3767454055
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: "E:/Unity\uD504\uB85C\uC81D\uD2B8/New Unity Project/Packages"
-m_EditorVersion: 2022.3.17f1 (4fc78088f837)
+m_ProjectPath: C:/Users/enddl/UntitledMazeGame/Packages
+m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
 m_ResolvedPackages:
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.ai@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -46,8 +46,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -72,17 +71,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.androidjni@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -100,8 +94,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -126,17 +119,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.animation@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -155,8 +143,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -181,17 +168,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.assetbundle@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -210,8 +192,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -236,17 +217,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.audio@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -265,8 +241,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -291,17 +266,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.cloth@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -320,8 +290,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -350,17 +319,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.director@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -379,8 +343,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -413,17 +376,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.imageconversion@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -443,8 +401,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -469,17 +426,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.imgui@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -498,8 +450,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -524,17 +475,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.jsonserialize@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -553,8 +499,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -579,17 +524,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.particlesystem@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -608,8 +548,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -634,17 +573,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.physics@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -663,8 +597,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -689,17 +622,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.physics2d@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -718,8 +646,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -744,17 +671,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.screencapture@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -773,8 +695,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -803,17 +724,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.terrain@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -832,8 +748,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -858,17 +773,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.terrainphysics@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -887,8 +797,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -921,17 +830,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.tilemap@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -949,8 +853,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -979,17 +882,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.ui@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1008,8 +906,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1034,17 +931,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.uielements@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1063,8 +955,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1072,12 +963,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -1101,17 +996,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.umbra@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1130,8 +1020,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1156,17 +1045,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.unityanalytics@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1185,8 +1069,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1219,17 +1102,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.unitywebrequest@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -1248,8 +1126,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1274,17 +1151,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -1303,8 +1175,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -1337,17 +1208,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -1366,8 +1232,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1400,17 +1265,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -1429,8 +1289,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1463,17 +1322,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -1492,8 +1346,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -1542,17 +1395,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.vehicles@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -1571,8 +1419,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1601,17 +1448,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.video@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -1630,8 +1472,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1668,17 +1509,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.vr@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -1697,8 +1533,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1737,17 +1572,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.wind@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -1766,8 +1596,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1792,17 +1621,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.xr@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -1821,8 +1645,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1859,17 +1682,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: "E:\\Unity\uD504\uB85C\uC81D\uD2B8\\New Unity Project\\Library\\PackageCache\\com.unity.modules.subsystems@1.0.0"
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -1888,8 +1706,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -1918,8 +1735,63 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
+- packageId: com.unity.modules.uielementsnative@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\enddl\UntitledMazeGame\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  assetPath: Packages/com.unity.modules.uielementsnative
+  name: com.unity.modules.uielementsnative
+  displayName: UIElements Native
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
