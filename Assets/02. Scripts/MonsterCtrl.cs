@@ -63,34 +63,35 @@ public class MonsterCtrl : MonoBehaviour
 
         }
     }
-
     IEnumerator MonsterAction()
     {
-        while(!isDie)
+        while (!isDie)
         {
-            
+            if (nvAgent == null || !nvAgent.enabled || !nvAgent.isOnNavMesh) // NavMeshAgent가 존재하고, 활성화되어 있으며, NavMesh 위에 있는지 확인
+            {
+                yield return null; // 조건을 만족하지 않으면 이번 프레임을 건너뛰고 다음 프레임으로 넘어감
+                continue;
+            }
 
-            switch(monsterState)
+            switch (monsterState)
             {
                 case MonsterState.idle:
                     nvAgent.isStopped = true;
                     animator.SetBool("IsTrace", false);
                     break;
                 case MonsterState.trace:
-                    nvAgent.destination = playerTr.position;
+                    nvAgent.destination = playerTr.position; // NavMeshAgent가 NavMesh 위에 있을 때만 목적지를 설정
                     nvAgent.isStopped = false;
                     animator.SetBool("IsTrace", true);
                     animator.SetBool("IsAttack", false);
                     break;
                 case MonsterState.attack:
-                    nvAgent.isStopped = true;
+                    nvAgent.isStopped = true; // 공격 상태에서는 NavMeshAgent를 정지
                     animator.SetBool("IsAttack", true);
                     break;
-
             }
 
             yield return new WaitForSeconds(0.2f);
-
         }
     }
 
@@ -118,7 +119,13 @@ public class MonsterCtrl : MonoBehaviour
         StopAllCoroutines();
         isDie = true;
         monsterState = MonsterState.die;
-        nvAgent.isStopped = true;
+
+        // NavMeshAgent가 활성화되어 있고, NavMesh 위에 있을 때만 isStopped를 설정
+        if (nvAgent != null && nvAgent.enabled && nvAgent.isOnNavMesh)
+        {
+            nvAgent.isStopped = true;
+        }
+
         animator.SetTrigger("IsDie");
 
         gameObject.GetComponentInChildren<CapsuleCollider>().enabled = false;
@@ -127,7 +134,6 @@ public class MonsterCtrl : MonoBehaviour
         {
             coll.enabled = false;
         }
-
     }
 
     private void Update()
@@ -138,7 +144,7 @@ public class MonsterCtrl : MonoBehaviour
     void OnPlayerDie()
     {
         StopAllCoroutines();
-        //  �̷��� �ص� �ڷ�ƾ�� �ȳ����� ��츦 ���ؼ�
+        //  이렇게 해도 코루틴이 안끝나는 경우를 위해서
         //isDie = true;
         nvAgent.isStopped = true;
         animator.SetTrigger("IsPlayerDie");
@@ -146,7 +152,7 @@ public class MonsterCtrl : MonoBehaviour
 
     void CreatBloodEffect(Vector3 pos)
     {
-        // ���� ȿ�� ����
+        // 혈흔 효과 생성
         GameObject blood1 = (GameObject)Instantiate(bloodEffect, pos, Quaternion.identity);
         Destroy(blood1, 1.0f);
 

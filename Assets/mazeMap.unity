@@ -11522,7 +11522,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8198392086264011816, guid: 805de8c9147d2ac4ab65feadaf6a6ef7, type: 3}
       propertyPath: m_Name
-      value: FirstPersonController Variant
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
