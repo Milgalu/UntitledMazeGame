@@ -337,11 +337,14 @@
 "Assets/02. Scripts/FireCtrl.cs"
 "Assets/02. Scripts/FollowCam.cs"
 "Assets/02. Scripts/GameManager.cs"
+"Assets/02. Scripts/GoalScript.cs"
 "Assets/02. Scripts/Item.cs"
 "Assets/02. Scripts/MonsterCtrl.cs"
 "Assets/02. Scripts/PlayerCameraController.cs"
 "Assets/02. Scripts/PlayerController.cs"
 "Assets/02. Scripts/PlayerCtrl.cs"
+"Assets/02. Scripts/PortalManager.cs"
+"Assets/02. Scripts/StunGunBullet.cs"
 "Assets/02. Scripts/UIMgr.cs"
 "Assets/Easy FPS/Scripts/BulletScript.cs"
 "Assets/Easy FPS/Scripts/DestroyAfterTimeParticle.cs"
@@ -358,6 +361,7 @@
 "Assets/ParticlePack/Shared/Scripts/SimpleCharacterMotor.cs"
 "Assets/ParticlePack/TutorialInfo/Scripts/Readme.cs"
 "Assets/Player.cs"
+"Assets/Reversed Interactive/The Portal Collection/Scripts/SimpleCameraControllerPortals.cs"
 -langversion:9.0
 
 /deterministic

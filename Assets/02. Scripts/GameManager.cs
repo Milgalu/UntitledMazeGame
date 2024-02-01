@@ -4,67 +4,89 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public Transform[] points; // ½ºÆù Æ÷ÀÎÆ® ¹è¿­
-    public GameObject monsterPrefab; // »ı¼ºÇÒ ¸ó½ºÅÍ ÇÁ¸®ÆÕ
-    public GameObject robotPrefab; // »ı¼ºÇÒ ·Îº¿ ÇÁ¸®ÆÕ (ÇöÀç »ç¿ëµÇÁö ¾ÊÀ½)
-    public float createTime = 2.0f; // ¸ó½ºÅÍ »ı¼º ÁÖ±â
-    public int maxMonster = 10; // ÃÖ´ë ¸ó½ºÅÍ ¼ö
-    public bool isGameOver = false; // °ÔÀÓ ¿À¹ö »óÅÂ
+    public Transform[] points; // ìŠ¤í° ì§€ì  ë°°ì—´
+    public GameObject monsterPrefab; // ëª¬ìŠ¤í„° í”„ë¦¬íŒ¹
+    public float createTime = 2.0f; // ìƒì„± ì£¼ê¸°
+    public int maxMonster = 10; // ìµœëŒ€ ëª¬ìŠ¤í„° ìˆ˜
+    public bool isGameOver = false; // ê²Œì„ ì˜¤ë²„ ì—¬ë¶€
 
-    int prevTime; // ÀÌÀü ½Ã°£ ÀúÀå º¯¼ö
-    float countTime; // ½Ã°£ °è»ê º¯¼ö
+    int prevTime; // ì´ì „ ì‹œê°„ ì •ë³´
+    float countTime; // ëˆ„ì  ì‹œê°„
 
-    public GameObject itemPrefab; // »ı¼ºÇÒ ¾ÆÀÌÅÛ ÇÁ¸®ÆÕ
-    int prevItemCheck; // ¾ÆÀÌÅÛ »ı¼º ½Ã°£ Ã¼Å© º¯¼ö
+    public GameObject itemPrefab_bullet;
+    public GameObject itemPrefab_battery;
+    public GameObject itemPrefab_pills;
+    int prevItemCheck; // ì´ì „ ì•„ì´í…œ ì²´í¬ ì‹œê°„
 
-    public static GameManager instance = null; // ½Ì±ÛÅæ ÀÎ½ºÅÏ½º
+    public static GameManager instance = null; // ì‹±ê¸€í†¤ ì¸ìŠ¤í„´ìŠ¤
 
     private void Awake()
     {
-        instance = this; // ½Ì±ÛÅæ ÀÎ½ºÅÏ½º ÃÊ±âÈ­
+        instance = this; // ì‹±ê¸€í†¤ ì¸ìŠ¤í„´ìŠ¤ ì´ˆê¸°í™”
     }
 
-    // Ã¹ ÇÁ·¹ÀÓ Àü¿¡ È£Ãâ
+    // ì‹œì‘ ì‹œ ì‹¤í–‰ë˜ëŠ” í•¨ìˆ˜
     void Start()
     {
-        // ½ºÆù Æ÷ÀÎÆ®¸¦ Ã£¾Æ ¹è¿­¿¡ ÇÒ´ç
+        // ìŠ¤í° ì§€ì ì„ ì°¾ì•„ ë°°ì—´ì— í• ë‹¹
         points = GameObject.Find("SpawnPoint").GetComponentsInChildren<Transform>();
     }
 
-    // ¸Å ÇÁ·¹ÀÓ¸¶´Ù È£Ãâ
+    // GameOver í•¨ìˆ˜ ì¶”ê°€
+    public void GameOver()
+    {
+        isGameOver = true;
+
+        // ì¶”ê°€ì ì¸ ê²Œì„ ì¢…ë£Œ ë¡œì§ì„ ì—¬ê¸°ì— ì¶”ê°€
+    }
+
+    // ë§¤ í”„ë ˆì„ë§ˆë‹¤ ì‹¤í–‰ë˜ëŠ” í•¨ìˆ˜
     void Update()
     {
-        if (isGameOver == false && points.Length > 0) // °ÔÀÓ ¿À¹ö »óÅÂ°¡ ¾Æ´Ï°í, ½ºÆù Æ÷ÀÎÆ®°¡ ÀÖÀ» °æ¿ì
+        if (isGameOver == false && points.Length > 0) // ê²Œì„ ì˜¤ë²„ê°€ ì•„ë‹ˆê³  ìŠ¤í° ì§€ì ì´ ì¡´ì¬í•  ë•Œ
         {
-            countTime += Time.deltaTime; // ½Ã°£ Áõ°¡
+            countTime += Time.deltaTime; // ëˆ„ì  ì‹œê°„ ì¦ê°€
 
-            int currTime = (int)(countTime % createTime); // ÇöÀç ½Ã°£ °è»ê
-            if (currTime == 0 && prevTime != currTime) // Æ¯Á¤ ÁÖ±â¸¶´Ù ¸ó½ºÅÍ »ı¼º
+            int currTime = (int)(countTime % createTime); // í˜„ì¬ ì‹œê°„ ì •ë³´
+            if (currTime == 0 && prevTime != currTime) // ì¼ì • ì‹œê°„ë§ˆë‹¤ ëª¬ìŠ¤í„° ìƒì„±
             {
-                int monsterCount = (int)GameObject.FindGameObjectsWithTag("MONSTER").Length; // ÇöÀç ¸ó½ºÅÍ ¼ö °è»ê
+                int monsterCount = (int)GameObject.FindGameObjectsWithTag("MONSTER").Length; // í˜„ì¬ ëª¬ìŠ¤í„° ìˆ˜
 
-                if (monsterCount < maxMonster) // ÃÖ´ë ¸ó½ºÅÍ ¼öº¸´Ù ÀûÀ» ¶§
+                if (monsterCount < maxMonster) // ìµœëŒ€ ëª¬ìŠ¤í„° ìˆ˜ë³´ë‹¤ ì ì„ ë•Œë§Œ ìƒì„±
                 {
-                    int idx = Random.Range(1, points.Length); // ·£´ı ½ºÆù Æ÷ÀÎÆ® ¼±ÅÃ
+                    int idx = Random.Range(1, points.Length); // ëœë¤í•œ ìŠ¤í° ì§€ì  ì„ íƒ
 
-                    if (Random.Range(0, 9) < 8) // ÀÏÁ¤ È®·ü·Î ¸ó½ºÅÍ »ı¼º
+                    if (Random.Range(0, 9) < 8) // 80% í™•ë¥ ë¡œ ëª¬ìŠ¤í„° ìƒì„±
                     {
-                        Instantiate(monsterPrefab, points[idx].position, points[idx].rotation); // ¸ó½ºÅÍ »ı¼º
+                        Instantiate(monsterPrefab, points[idx].position, points[idx].rotation); // ëª¬ìŠ¤í„° ìƒì„±
                     }
                 }
             }
-            prevTime = currTime; // ÀÌÀü ½Ã°£ ¾÷µ¥ÀÌÆ®
+            prevTime = currTime; // í˜„ì¬ ì‹œê°„ ì •ë³´ ê°±ì‹ 
 
-            // ¾ÆÀÌÅÛ »ı¼º ·ÎÁ÷
-            int curItemTime = (int)(countTime % 5f); // ¾ÆÀÌÅÛ »ı¼º ÁÖ±â °è»ê
-            if (curItemTime == 0 && prevItemCheck != curItemTime) // Æ¯Á¤ ÁÖ±â¸¶´Ù ¾ÆÀÌÅÛ »ı¼º
+            // ì•„ì´í…œ ìƒì„±
+            int curItemTime = (int)(countTime % 5f); // ì•„ì´í…œ ìƒì„± ì£¼ê¸°
+            if (curItemTime == 0 && prevItemCheck != curItemTime) // ì¼ì • ì‹œê°„ë§ˆë‹¤ ì•„ì´í…œ ìƒì„±
             {
-                Vector3 randpos = new Vector3(Random.Range(-25f, 25f), 3.0f, Random.Range(-25,25f)); // ·£´ı À§Ä¡ ¼³Á¤
+                Vector3 randpos = new Vector3(Random.Range(-25f, 25f), 4.0f, Random.Range(-25, 25f)); // ëœë¤í•œ ìœ„ì¹˜ ìƒì„±
 
-                Instantiate(itemPrefab, randpos, Quaternion.identity); // ¾ÆÀÌÅÛ »ı¼º
+                // ëœë¤ìœ¼ë¡œ ì•„ì´í…œ ì¤‘ í•˜ë‚˜ ì„ íƒí•˜ì—¬ ìƒì„±
+                int randomItem = Random.Range(0, 3);
+                switch (randomItem)
+                {
+                    case 0:
+                        Instantiate(itemPrefab_bullet, randpos, Quaternion.identity); // ì´ì•Œ ì•„ì´í…œ ìƒì„±
+                        break;
+                    case 1:
+                        Instantiate(itemPrefab_battery, randpos, Quaternion.identity); // ë°°í„°ë¦¬ ì•„ì´í…œ ìƒì„±
+                        break;
+                    case 2:
+                        Instantiate(itemPrefab_pills, randpos, Quaternion.identity); // í”¼ë£°ìŠ¤ ì•„ì´í…œ ìƒì„±
+                        break;
+                }
             }
 
-            prevItemCheck = curItemTime; // ÀÌÀü ¾ÆÀÌÅÛ »ı¼º ½Ã°£ ¾÷µ¥ÀÌÆ®
+            prevItemCheck = curItemTime; // ì´ì „ ì•„ì´í…œ ì²´í¬ ì‹œê°„ ê°±ì‹ 
         }
     }
 }
