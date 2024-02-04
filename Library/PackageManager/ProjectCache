@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/enddl/Desktop/unity/Packages/manifest.json
+    m_FilePath: C:/Users/enddl/Desktop/test/10-feat_21-plan-yebin/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638422114747780731
-    m_Hash: 621096344
+      ticks: 638426657669830482
+    m_Hash: 2273669639
   m_LockFileStatus:
-    m_FilePath: C:/Users/enddl/Desktop/unity/Packages/packages-lock.json
+    m_FilePath: C:/Users/enddl/Desktop/test/10-feat_21-plan-yebin/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638422114747830592
-    m_Hash: 563859489
+      ticks: 638426657669900523
+    m_Hash: 271364070
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/enddl/Desktop/unity/Packages
+m_ProjectPath: C:/Users/enddl/Desktop/test/10-feat_21-plan-yebin/Packages
 m_EditorVersion: 2022.3.17f1 (4fc78088f837)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.5
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.5
   source: 1
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.ai.navigation@1.1.5
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.ai.navigation@1.1.5
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -93,12 +93,286 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+- packageId: com.unity.localization@1.4.5
+  testable: 0
+  isDirectDependency: 1
+  version: 1.4.5
+  source: 1
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.localization@1.4.5
+  assetPath: Packages/com.unity.localization
+  name: com.unity.localization
+  displayName: Localization
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "Use the Localization package to easily configure localization settings
+    for your application.\n\nAdd support for multiple languages and regional variants,
+    including:\n\n\u2022 String localization: Set different strings to display based
+    on locale. Use the Smart Strings feature to add logic to automatically replace
+    specific strings, such as placeholders and plurals.\n\u2022 Asset localization:
+    Use a different asset (such as a texture, model, or audio file) based on a locale.\n\u2022
+    Pseudo-localization: Test how your project will adapt to different localizations
+    at an early stage, before adding your translations.\n\u2022 Import and export
+    localization data to XLIFF, CSV and Google Sheets.\n\nAdd localization to your
+    projects using the Localization package to help make your applications more accessible
+    to a wider audience."
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.3.1-preview
+    - 0.3.2-preview
+    - 0.4.0-preview
+    - 0.5.0-preview
+    - 0.5.1-preview
+    - 0.6.0-preview
+    - 0.6.1-preview
+    - 0.7.1-preview
+    - 0.8.0-preview
+    - 0.8.1-preview
+    - 0.9.0-preview
+    - 0.10.0-preview
+    - 0.11.0-preview
+    - 0.11.1-preview
+    - 1.0.0-pre.8
+    - 1.0.0-pre.9
+    - 1.0.0-pre.10
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.1.0
+    - 1.1.1
+    - 1.2.1
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0-exp.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.5.0-pre.2
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0-pre.6
+    compatible:
+    - 1.4.4
+    - 1.4.5
+    - 1.5.0-pre.2
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0-pre.6
+    recommended: 1.4.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.addressables
+    version: 1.21.8
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.0.2
+  resolvedDependencies:
+  - name: com.unity.addressables
+    version: 1.21.19
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.21
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  keywords:
+  - localization
+  - locale
+  - language
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638308256820000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.localization@1.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.localization.git
+    revision: a4890be557c52504bb1c494b8b425c4c4efb61ad
+    path: 
+  unityLifecycle:
+    version: 1.4.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.probuilder@5.2.2
+  testable: 0
+  isDirectDependency: 1
+  version: 5.2.2
+  source: 1
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.probuilder@5.2.2
+  assetPath: Packages/com.unity.probuilder
+  name: com.unity.probuilder
+  displayName: ProBuilder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+    for in-scene level design, prototyping, collision meshes, all with on-the-fly
+    play-testing.
+
+
+    Advanced features include UV editing, vertex colors, parametric
+    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
+    to tweak your levels in any external 3D modelling suite.
+
+
+    If you are using
+    URP/HDRP, be careful to also import the corresponding sample project in the section
+    below to get the proper materials.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.6
+    - 3.0.8
+    - 3.0.9
+    - 3.10.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.0.5
+    - 4.1.0
+    - 4.1.2
+    - 4.2.1
+    - 4.2.2-preview.1
+    - 4.2.2-preview.2
+    - 4.2.3
+    - 4.2.4-preview.0
+    - 4.3.0-preview.0
+    - 4.3.0-preview.1
+    - 4.3.0-preview.2
+    - 4.3.0-preview.4
+    - 4.3.0-preview.6
+    - 4.3.0-preview.7
+    - 4.3.0-preview.8
+    - 4.3.0-preview.9
+    - 4.3.1
+    - 4.4.0-preview.1
+    - 4.4.0
+    - 4.5.0
+    - 4.5.2
+    - 5.0.0-pre.7
+    - 5.0.0-pre.10
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 5.2.2
+    - 6.0.1-pre.1
+    compatible:
+    - 5.2.2
+    recommended: 5.2.2
+    deprecated: []
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - 3d
+  - model
+  - mesh
+  - modeling
+  - geometry
+  - shape
+  - cube
+  - blender
+  - max
+  - maya
+  - fbx
+  - obj
+  - level
+  - design
+  - block
+  - greybox
+  - graybox
+  - whitebox
+  - prototype
+  - probuilder
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638368700860000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.probuilder.git
+    revision: d1aaa03087398cf9477de8e6cfbfb66b180ab71d
+    path: 
+  unityLifecycle:
+    version: 5.2.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -169,7 +443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -224,7 +498,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -278,7 +552,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -333,7 +607,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -388,7 +662,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -443,7 +717,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -502,7 +776,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -565,7 +839,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -621,7 +895,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -676,7 +950,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -731,7 +1005,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -786,7 +1060,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -841,7 +1115,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -896,7 +1170,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -955,7 +1229,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1010,7 +1284,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1073,7 +1347,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1131,7 +1405,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1186,7 +1460,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1253,7 +1527,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1308,7 +1582,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1371,7 +1645,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -1426,7 +1700,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -1489,7 +1763,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -1552,7 +1826,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -1615,7 +1889,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -1694,7 +1968,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -1753,7 +2027,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -1820,7 +2094,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -1889,7 +2163,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -1944,7 +2218,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2011,7 +2285,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\enddl\Desktop\unity\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2059,6 +2333,480 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 2.0.1
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.addressables@1.21.19
+  testable: 0
+  isDirectDependency: 0
+  version: 1.21.19
+  source: 1
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.addressables@1.21.19
+  assetPath: Packages/com.unity.addressables
+  name: com.unity.addressables
+  displayName: Addressables
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'The Addressable Asset System allows the developer to ask for an asset
+    via its address. Once an asset (e.g. a prefab) is marked "addressable", it generates
+    an address which can be called from anywhere. Wherever the asset resides (local
+    or remote), the system will locate it and its dependencies, then return it.
+
+
+    Use
+    ''Window->Asset Management->Addressables'' to begin working with the system.
+
+
+    Addressables
+    use asynchronous loading to support loading from any location with any collection
+    of dependencies. Whether you have been using direct references, traditional asset
+    bundles, or Resource folders, addressables provide a simpler way to make your
+    game more dynamic. Addressables simultaneously opens up the world of asset bundles
+    while managing all the complexity.
+
+
+    For usage samples, see github.com/Unity-Technologies/Addressables-Sample'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.8-preview
+    - 0.0.12-preview
+    - 0.0.15-preview
+    - 0.0.16-preview
+    - 0.0.18-preview
+    - 0.0.22-preview
+    - 0.0.26-preview
+    - 0.0.27-preview
+    - 0.1.2-preview
+    - 0.2.1-preview
+    - 0.2.2-preview
+    - 0.3.5-preview
+    - 0.4.6-preview
+    - 0.4.8-preview
+    - 0.5.2-preview
+    - 0.5.3-preview
+    - 0.6.6-preview
+    - 0.6.7-preview
+    - 0.6.8-preview
+    - 0.7.4-preview
+    - 0.7.5-preview
+    - 0.8.4-preview
+    - 0.8.6-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5
+    - 1.1.7
+    - 1.1.9
+    - 1.1.10
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.3
+    - 1.3.8
+    - 1.4.0
+    - 1.5.0
+    - 1.5.1
+    - 1.6.0
+    - 1.6.2
+    - 1.7.4
+    - 1.7.5
+    - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.9.2
+    - 1.10.0
+    - 1.11.2
+    - 1.12.0
+    - 1.13.1
+    - 1.14.2
+    - 1.15.1
+    - 1.16.1
+    - 1.16.6
+    - 1.16.7
+    - 1.16.8
+    - 1.16.10
+    - 1.16.12
+    - 1.16.13
+    - 1.16.15
+    - 1.16.16
+    - 1.16.19
+    - 1.17.0-preview
+    - 1.17.2-preview
+    - 1.17.4-preview
+    - 1.17.5-preview
+    - 1.17.6-preview
+    - 1.17.13
+    - 1.17.15
+    - 1.17.17
+    - 1.18.2
+    - 1.18.4
+    - 1.18.9
+    - 1.18.11
+    - 1.18.13
+    - 1.18.15
+    - 1.18.16
+    - 1.18.19
+    - 1.19.4
+    - 1.19.6
+    - 1.19.9
+    - 1.19.11
+    - 1.19.13
+    - 1.19.14
+    - 1.19.15
+    - 1.19.17
+    - 1.19.18
+    - 1.19.19
+    - 1.20.0
+    - 1.20.3
+    - 1.20.5
+    - 1.21.1
+    - 1.21.2
+    - 1.21.3
+    - 1.21.8
+    - 1.21.9
+    - 1.21.10
+    - 1.21.12
+    - 1.21.14
+    - 1.21.15
+    - 1.21.17
+    - 1.21.18
+    - 1.21.19
+    - 2.0.3
+    - 2.0.4
+    - 2.0.6
+    compatible:
+    - 1.21.19
+    recommended: 1.21.19
+    deprecated: []
+  dependencies:
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.21
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.21.21
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequestassetbundle
+    version: 1.0.0
+  keywords:
+  - asset
+  - resources
+  - bundle
+  - bundles
+  - assetbundles
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638342531680000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.addressables@1.21/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+    revision: f50f07ff121c5aa50ac3d852373c2c50ecbd73cf
+    path: 
+  unityLifecycle:
+    version: 1.21.19
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 3.2.1
+  source: 1
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: library
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 13.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.0
+    - 3.2.1
+    compatible:
+    - 3.2.1
+    recommended: 3.2.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638186318800000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
+    path: 
+  unityLifecycle:
+    version: 3.2.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.unity.scriptablebuildpipeline@1.21.21
+  testable: 0
+  isDirectDependency: 0
+  version: 1.21.21
+  source: 1
+  resolvedPath: C:\Users\enddl\Desktop\test\10-feat_21-plan-yebin\Library\PackageCache\com.unity.scriptablebuildpipeline@1.21.21
+  assetPath: Packages/com.unity.scriptablebuildpipeline
+  name: com.unity.scriptablebuildpipeline
+  displayName: Scriptable Build Pipeline
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: The Scriptable Build Pipeline moves the asset bundle build pipeline
+    to C#.  Use the pre-defined build flows, or create your own using the divided
+    up APIs.  This system improves build time, fixes incremental build, and provides
+    greater flexibility.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.5-preview
+    - 0.0.6-preview
+    - 0.0.8-preview
+    - 0.0.9-preview
+    - 0.0.10-preview
+    - 0.0.14-preview
+    - 0.0.15-preview
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 1.0.1-preview
+    - 1.1.0-preview
+    - 1.1.1-preview
+    - 1.2.1-preview
+    - 1.3.5-preview
+    - 1.4.1-preview
+    - 1.5.0-preview
+    - 1.5.1
+    - 1.5.2
+    - 1.5.4
+    - 1.5.6
+    - 1.5.10
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.6.5-preview
+    - 1.7.2
+    - 1.7.3
+    - 1.8.2
+    - 1.8.4
+    - 1.8.6
+    - 1.9.0
+    - 1.10.0
+    - 1.11.1
+    - 1.11.2
+    - 1.12.0
+    - 1.13.1
+    - 1.14.0
+    - 1.14.1
+    - 1.15.1
+    - 1.15.2
+    - 1.16.1
+    - 1.17.0
+    - 1.18.0
+    - 1.19.0
+    - 1.19.1
+    - 1.19.2
+    - 1.19.3
+    - 1.19.4
+    - 1.19.5
+    - 1.19.6
+    - 1.20.1
+    - 1.20.2
+    - 1.21.0
+    - 1.21.1
+    - 1.21.2
+    - 1.21.3
+    - 1.21.5
+    - 1.21.7
+    - 1.21.8
+    - 1.21.9
+    - 1.21.20
+    - 1.21.21
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    compatible:
+    - 1.21.21
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    recommended: 1.21.21
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - build
+  - bundle
+  - bundles
+  - assetbundles
+  - cache
+  - server
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638342531640000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@1.21/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+    revision: a981d4bc6c5de7a6a62ec3f63f3bdfc87ece371a
+    path: 
+  unityLifecycle:
+    version: 1.21.21
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
