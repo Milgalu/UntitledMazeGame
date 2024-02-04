@@ -24,7 +24,7 @@ public class Monster : MonoBehaviour
         if (!isStunned)
         {
             Vector3 playerPosition = GetPlayerPosition();
-            Debug.Log("플레이어 위치: " + playerPosition);
+            //Debug.Log("플레이어 위치: " + playerPosition);
             AI(playerPosition, transform.position);
         }
     }

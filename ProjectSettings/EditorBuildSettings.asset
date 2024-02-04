@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01. Scenes/Start.unity
+    guid: 8dee1a1c37509af4f8c3402413440fa2
+  - enabled: 1
+    path: Assets/01. Scenes/mazeMap.unity
+    guid: c20798a455234be4a89abc3771b7678f
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 0ade27f3371195b4b8ecd3acb900bf4a, type: 2}

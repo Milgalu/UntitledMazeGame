@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject itemPrefab_bullet;
     public GameObject itemPrefab_battery;
     public GameObject itemPrefab_pills;
+    public GameObject itemPrefab_healpack;
     int prevItemCheck; // 이전 아이템 체크 시간
 
     public static GameManager instance = null; // 싱글톤 인스턴스
@@ -82,6 +83,9 @@ public class GameManager : MonoBehaviour
                         break;
                     case 2:
                         Instantiate(itemPrefab_pills, randpos, Quaternion.identity); // 피룰스 아이템 생성
+                        break;
+                    case 3:
+                        Instantiate(itemPrefab_healpack, randpos, Quaternion.identity); // 피룰스 아이템 생성
                         break;
                 }
             }

@@ -3,9 +3,14 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    public AudioSource PlayerAudioSource;
+    public AudioClip[] bulletSounds;
+    public AudioClip[] stunGunSounds;
+    public AudioClip[] speedUpSounds;
+
     public Text itemText; 
     public float speedBoostMultiplier = 2f; // 스피드 포션 사용시 속도 증가 배수
-    private bool isSpeedBoostActive = false;
+    public bool isSpeedBoostActive = false;
     private float speedBoostDuration = 5f; // 스피드 포션 지속 시간 (초)
     private float speedBoostTimer = 0f;
 
@@ -33,6 +38,8 @@ public class PlayerController : MonoBehaviour
     {
         // UI Text 초기화
         UpdateHUDText();
+
+        //PlayerAudioSource = GetComponent<AudioSource>();
 
         // FirstPersonController 스크립트를 참조
         firstPersonController = GetComponent<FirstPersonController>();
@@ -76,6 +83,7 @@ public class PlayerController : MonoBehaviour
     {
         if (stunGunCount > 0) // 전기 충격기 개수가 0보다 큰 경우에만 발사 가능
         {
+            PlayRandomSound(stunGunSounds);
             stunGunCount--;
             UpdateHUDText();
 
@@ -95,6 +103,7 @@ public class PlayerController : MonoBehaviour
     {
         if (bulletCount > 0) // 총알 개수가 0보다 큰 경우에만 발사 가능
         {
+            PlayRandomSound(bulletSounds);
             bulletCount--;
             UpdateHUDText();
 
@@ -114,6 +123,7 @@ public class PlayerController : MonoBehaviour
     {
         if (speedUpCount > 0) // 스피드 포션 개수가 0보다 큰 경우에만 사용 가능
         {
+            PlayRandomSound(speedUpSounds);
             speedUpCount--;
             UpdateHUDText();
 
@@ -166,7 +176,21 @@ public class PlayerController : MonoBehaviour
                 stunGunCount++;
                 UpdateHUDText();
                 break;
-            // 다른 아이템 타입에 대한 처리 추가 가능
+            case ItemType.HealPack:
+                // 체력 회복 아이템 처리 추가 가능
+                break;
+        }
+    }
+
+    private void PlayRandomSound(AudioClip[] soundArray)
+    {
+        if (soundArray.Length > 0)
+        {
+            // 무작위로 소리 선택
+            AudioClip randomSound = soundArray[Random.Range(0, soundArray.Length)];
+
+            // 선택한 소리 재생
+            PlayerAudioSource.PlayOneShot(randomSound);
         }
     }
 }
