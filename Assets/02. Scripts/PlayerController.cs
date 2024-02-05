@@ -146,17 +146,17 @@ public class PlayerController : MonoBehaviour
     {
         if (hudBulletsText != null)
         {
-            hudBulletsText.text = $"1.Bullets: {bulletCount}";
+            hudBulletsText.text = $"{bulletCount}";
         }
 
         if (hudSpeedUpText != null)
         {
-            hudSpeedUpText.text = $"2.Speed Pills: {speedUpCount}";
+            hudSpeedUpText.text = $"{speedUpCount}";
         }
 
         if (hudStunGunText != null)
         {
-            hudStunGunText.text = $"3.Stun Guns: {stunGunCount}";
+            hudStunGunText.text = $"{stunGunCount}";
         }
     }
 

@@ -3,12 +3,17 @@ using UnityEngine.SceneManagement;
 
 public class OptionsButtonScript : MonoBehaviour
 {
+    
+    public GameObject optionUI;
+    public GameObject startUI;
     public string nextScene;
     public void Options()
     {
         // 옵션 버튼이 클릭되었을 때 실행되는 함수
         Debug.Log("옵션 메뉴를 엽니다.");
         // 옵션 메뉴 로직을 추가하려면 여기에 추가
+        optionUI.SetActive(true);
+        startUI.SetActive(false);
     }
     public void StartGame()
     {
@@ -28,5 +33,14 @@ public class OptionsButtonScript : MonoBehaviour
         #else
             Application.Quit();
         #endif
+    }
+
+    public void BackToStart()
+    {
+        // 옵션 메뉴에서 뒤로 가기 버튼이 클릭되었을 때 실행되는 함수
+        Debug.Log("시작 화면으로 돌아갑니다.");
+        // 옵션 메뉴 로직을 추가하려면 여기에 추가
+        optionUI.SetActive(false);
+        startUI.SetActive(true);
     }
 }

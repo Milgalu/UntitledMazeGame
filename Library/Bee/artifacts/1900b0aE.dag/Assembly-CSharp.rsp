@@ -358,6 +358,7 @@
 "Assets/02. Scripts/PlayerCtrl.cs"
 "Assets/02. Scripts/PlayerFootsteps.cs"
 "Assets/02. Scripts/PortalManager.cs"
+"Assets/02. Scripts/Start/LocaleManager.cs"
 "Assets/02. Scripts/Start/MovingCamera.cs"
 "Assets/02. Scripts/Start/OptionsButtonScript.cs"
 "Assets/02. Scripts/Start/RandomSoundPlayer.cs"
