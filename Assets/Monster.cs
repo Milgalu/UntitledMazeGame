@@ -6,27 +6,46 @@ public class Monster : MonoBehaviour
 {
     public float Speed = 0.8f;
     float h, v;
-    float _X = 0.0f;
-    float _Y = 0.0f;
     static int cnt = 0;
-    // Start is called before the first frame update
+    private MonsterAI monsterAI;
+
     void Start()
     {
-        
+        monsterAI = new MonsterAI();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (cnt == 10)
+        if (cnt == 100)
         {
-            Vector3 TF = transform.position;
-            //MosterAI moster;
-            
+            monsterAI.Run();
+            cnt = 0;
         }
-        Vector3 playerPosition = GetPlayerPosition();
-        Debug.Log("플레이어 포지션: "  + playerPosition);
+        cnt++;
     }
+    void OnCollisionEnter(Collision collision)
+    {
+        string objectTag = collision.gameObject.tag;
+        Debug.Log("오브젝트 태그: " + objectTag);
+        switch (objectTag)
+        {
+            case "WALL":
+                monsterAI.CollisionWall();
+                Debug.Log("벽과 충돌했습니다!!!!!!!!!!!");
+                break;
+            case "PLAYER":
+                monsterAI.CollisionPlayer();
+                Debug.Log("플레이어를 잡았습니다!");
+                break;
+            default:
+                // 기타 오브젝트와 충돌했을 때 처리
+                Debug.Log("알 수 없는 오브젝트와 충돌했습니다!");
+                break;
+        }
+        // 캐릭터 이전 이동을 취소
+    }
+    /*
     void FixedUpdate()
     {
         if (cnt == 10)
@@ -42,20 +61,6 @@ public class Monster : MonoBehaviour
 
         // Point 2.
         transform.position += new Vector3(h, 0, v) * Speed * Time.deltaTime;
-    }
-    public Vector3 GetPlayerPosition()
-    {
-        // Player 오브젝트를 가져옵니다.
-        GameObject player = GameObject.Find("Player");
+    }*/
 
-        // Player 오브젝트의 위치를 가져옵니다.
-        Vector3 playerPosition = player.transform.position;
-
-        // Player의 위치를 반환합니다.
-        return playerPosition;
-    }
-    void AI(Vector3 playerPosition, Vector3 mosterPosition)
-    {
-
-    }
 }
