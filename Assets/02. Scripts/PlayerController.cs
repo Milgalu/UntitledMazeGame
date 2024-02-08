@@ -176,9 +176,6 @@ public class PlayerController : MonoBehaviour
                 stunGunCount++;
                 UpdateHUDText();
                 break;
-            case ItemType.HealPack:
-                // 체력 회복 아이템 처리 추가 가능
-                break;
         }
     }
 

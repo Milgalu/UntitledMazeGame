@@ -79,6 +79,10 @@ MonoBehaviour:
     m_Key: itemUI_text_stunGun
     m_Metadata:
       m_Items: []
+  - m_Id: 857174212616192
+    m_Key: gameoverUI_text_gameover
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

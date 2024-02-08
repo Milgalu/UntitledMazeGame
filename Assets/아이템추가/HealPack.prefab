@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealPack
       objectReference: {fileID: 0}
+    - target: {fileID: 1987713744733760, guid: b55df95fa6211964e8ad561501250fac, type: 3}
+      propertyPath: m_TagString
+      value: HPPill
+      objectReference: {fileID: 0}
     - target: {fileID: 4792054580643688, guid: b55df95fa6211964e8ad561501250fac, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -77,6 +81,9 @@ PrefabInstance:
       addedObject: {fileID: 5542109452619893488}
     - targetCorrespondingSourceObject: {fileID: 1987713744733760, guid: b55df95fa6211964e8ad561501250fac, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 5024464272577063886}
+    - targetCorrespondingSourceObject: {fileID: 1987713744733760, guid: b55df95fa6211964e8ad561501250fac, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 6160796325013076396}
   m_SourcePrefab: {fileID: 100100000, guid: b55df95fa6211964e8ad561501250fac, type: 3}
 --- !u!1 &7409267991548662742 stripped
@@ -121,6 +128,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8154834, y: 0.3475596, z: 0.62949526}
   m_Center: {x: -0.0068259835, y: 0.1600316, z: 0.0025842488}
+--- !u!114 &5024464272577063886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7409267991548662742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 397377b38bd90524e8ab6ee9bcc7614f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healAmount: 20
 --- !u!54 &6160796325013076396
 Rigidbody:
   m_ObjectHideFlags: 0

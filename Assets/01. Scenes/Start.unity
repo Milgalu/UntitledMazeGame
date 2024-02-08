@@ -23,8 +23,8 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientIntensity: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
@@ -346,7 +346,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 9ce960c1b091ff9468b6bf55b3adb3f2, type: 3}
     m_FontSize: 100
     m_FontStyle: 1
     m_BestFit: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 0.75
   m_Text: 'Untitled
 
     Maze
@@ -816,7 +816,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 56}
+  m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273619456
 MonoBehaviour:
@@ -1144,7 +1144,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 2051916447}
-  m_PlaneDistance: 1
+  m_PlaneDistance: 0.4
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -2541,7 +2541,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 160, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634835415
 MonoBehaviour:
@@ -2910,7 +2910,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 56}
+  m_SizeDelta: {x: 250, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006665666
 MonoBehaviour:
@@ -6222,7 +6222,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 250, y: 56}
+  m_SizeDelta: {x: 250, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379155625
 MonoBehaviour:
@@ -6318,7 +6318,6 @@ GameObject:
   - component: {fileID: 1398665483}
   - component: {fileID: 1398665482}
   - component: {fileID: 1398665481}
-  - component: {fileID: 1398665480}
   m_Layer: 5
   m_Name: optionUI
   m_TagString: Untagged
@@ -6349,21 +6348,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1398665480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398665478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4a5dba06a273e2479a3370a2bdebed4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  optionUI: {fileID: 0}
-  startUI: {fileID: 0}
-  nextScene: mazeMap
 --- !u!114 &1398665481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6415,7 +6399,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 2051916447}
-  m_PlaneDistance: 1
+  m_PlaneDistance: 0.4
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -6538,11 +6522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Untitled
-
-    Maze
-
-    Game'
+  m_Text: Language
 --- !u!222 &1414168461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7681,7 +7661,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 56}
+  m_SizeDelta: {x: 200, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1564994805
 MonoBehaviour:
@@ -8038,7 +8018,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: English
+  m_Text: "\uD55C\uAD6D\uC5B4"
 --- !u!222 &1891537246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8059,6 +8039,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e287524dd1a0db745bc15ad60f863f3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  englishFont: {fileID: 12800000, guid: 9ce960c1b091ff9468b6bf55b3adb3f2, type: 3}
+  koreanFont: {fileID: 12800000, guid: 52badbdb95c8c0b47894c6b602043b91, type: 3}
+  japaneseFont: {fileID: 12800000, guid: 8a9ce3256da76dc45aab5c948f4a9efc, type: 3}
 --- !u!114 &1891537248
 MonoBehaviour:
   m_ObjectHideFlags: 0

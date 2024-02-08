@@ -7,7 +7,7 @@ public enum ItemType
     Bullet,
     SpeedUp,
     StunGun,
-    HealPack
+    HealPill
 }
 
 public class Item : MonoBehaviour

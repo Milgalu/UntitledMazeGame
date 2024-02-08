@@ -22,7 +22,7 @@ public class MonsterCtrl : MonoBehaviour
     public GameObject bloodEffect;
     public GameObject bloodDecal;
 
-
+    private float stunDuration = 2.0f; // 잠시 이동을 멈출 시간
 
     // Start is called before the first frame update
     void Start()
@@ -95,6 +95,22 @@ public class MonsterCtrl : MonoBehaviour
         }
     }
 
+    void StunMonster()
+    {
+        StopAllCoroutines();
+        nvAgent.isStopped = true;
+        StartCoroutine(RecoverFromStun());
+    }
+
+    IEnumerator RecoverFromStun()
+    {
+        yield return new WaitForSeconds(stunDuration);
+        Debug.Log("몬스터 스턴 해제");
+        nvAgent.isStopped = false;
+        StartCoroutine(CheckMonsterState());
+        StartCoroutine(MonsterAction()); 
+    }
+
     private void OnCollisionEnter(Collision coll)
     {
         if (coll.collider.tag == "BULLET")
@@ -111,6 +127,16 @@ public class MonsterCtrl : MonoBehaviour
             {
                 animator.SetTrigger("IsHit");
             }
+        }
+    }
+
+    // 스턴 총알과 충돌했을 때 호출되는 메서드
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("StunBullet"))
+        {
+            Debug.Log("몬스터 스턴 총알과 충돌");
+            StunMonster();  // 몬스터를 스턴시킴
         }
     }
 
