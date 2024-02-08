@@ -338,6 +338,7 @@
 "Assets/02. Scripts/FollowCam.cs"
 "Assets/02. Scripts/GameManager.cs"
 "Assets/02. Scripts/GoalScript.cs"
+"Assets/02. Scripts/Heal.cs"
 "Assets/02. Scripts/HP.cs"
 "Assets/02. Scripts/Item.cs"
 "Assets/02. Scripts/MonsterCtrl.cs"

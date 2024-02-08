@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterState: 0
-  traceDist: 50
+  traceDist: 10
   attackDist: 2
   bloodEffect: {fileID: 1000012909287652, guid: c179df890ec74ad419193f7238042f52, type: 3}
   bloodDecal: {fileID: 1000010675638318, guid: 0456c7943e5c7c7408ffe2816a2b5fed, type: 3}

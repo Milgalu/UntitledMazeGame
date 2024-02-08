@@ -9,6 +9,10 @@ TagManager:
   - PUNCH
   - BULLET
   - StunBullet
+  - Weapon
+  - SecondCamera
+  - BulletSpawn
+  - HPPill
   layers:
   - Default
   - TransparentFX

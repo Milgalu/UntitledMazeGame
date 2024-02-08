@@ -68,15 +68,16 @@ public class HP : MonoBehaviour
             }
         }
 
-       
-        //체력아이템
-        /*else if (coll.gameObject.tag == "ITEM")
-        {
-            Item item = coll.gameObject.GetComponent<Item>();
 
-            if (item != null)
+        //체력아이템
+        
+        else if (coll.gameObject.tag == "HPPill")
+        {
+            Heal heal = coll.gameObject.GetComponent<Heal>();
+
+            if (heal != null)
             {
-                hp += item.healAmount;
+                hp += heal.healAmount;
 
                 if (hp > 100)
                 {
@@ -85,7 +86,7 @@ public class HP : MonoBehaviour
                 imgHpbar.fillAmount = (float)hp / (float)initHp;
             }
             Destroy(coll.gameObject);
-        }*/
+        }
     }
 
 
